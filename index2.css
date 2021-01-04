@@ -1,0 +1,114 @@
+.Content{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.layer1{
+    width: 100%;
+    height: 600px;
+    margin: auto !important;
+    position: relative;
+}
+.layer1 h2{
+    margin-left: 25px !important;
+    font-weight: 300;
+
+}
+.layer1 .row .col-sm-6 .to-left{
+    margin-left: 20px;
+}
+.layer1 .row .col-sm-6 .to-right{
+    margin-left: -7px;
+}
+.layer1 .row .col-sm-6 .khoi img{
+    width: 730px;
+    height: 600px;
+    position: absolute;
+}
+.layer1 .row .col-sm-6 .khoi .inside{
+    position: absolute;
+    margin-top: 60%;
+    left: 10%;
+    color: white;
+}
+.layer1 .row .col-sm-6 .khoi .inside .btn{
+    border-radius: 40px;
+    color: black !important;
+    font-weight: bold;
+}
+/* ---------------------------------------------------- */
+.layer2{
+    background-image: url('img2/jordan.jpg');
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: -100px;
+    margin-top: 100px !important;
+}
+.noidung{
+    width: 500px;
+    text-align: left;
+    font-size: 35px;
+    color: white;
+    padding-top: 300px;
+    margin-left: 100px;
+}
+.layer2 .chulon{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.layer2 .chunho{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.layer3{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    font-weight: bold;
+}
+.layer3 img{
+    width: 600px;
+    height: auto;
+}
+.layer3 .btn{
+    border-radius: 40px;
+    margin-top: 20px;
+    color: white !important;
+    font-weight: bold;
+    background-color: black;
+    transition: 0.5s;
+}
+.layer3 .btn:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+/* .navbar.togger-menu {
+    background-color: black;
+    position: fixed;
+    padding: 10px 20px;
+    margin: auto;
+    transition: 1s;
+    z-index: 3;
+    width: 100%;
+}*/
+.to-up{
+    opacity: 0;
+    transition: 0.5s;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+.to-up.show-to-up{
+    opacity: 1;
+    transition: 0.5s;
+    z-index: 99;
+} 
+/* ------------------------------------------- */
+/* ------------------------------------------ */
+.Theend{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
