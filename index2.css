@@ -84,31 +84,103 @@
     transform: scale(1.1);
     transition: 0.5s;
 }
-/* .navbar.togger-menu {
-    background-color: black;
-    position: fixed;
-    padding: 10px 20px;
-    margin: auto;
-    transition: 1s;
-    z-index: 3;
-    width: 100%;
-}*/
-.to-up{
-    opacity: 0;
+.layer4 .card-deck .card{
     transition: 0.5s;
-    margin-right: 20px;
-    margin-bottom: 20px;
+}
+.layer4 .card-deck .card:hover{
+    transition: 0.5s;
+    box-shadow: 5px 10px 8px 10px #c2bfbfc2;
+    background-color: rgb(232, 236, 234);
     
 }
-.to-up.show-to-up{
-    opacity: 1;
-    transition: 0.5s;
-    z-index: 99;
-} 
-/* ------------------------------------------- */
+.layer4 .card-deck .card h5{
+    font-size: 20px;
+    font-weight: 900;
+}
 /* ------------------------------------------ */
 .Theend{
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: black;
+    position: relative;
 }
+.Theend img{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    margin: 20px 20px;
+}
+.Theend .container{
+    border-bottom: 0.2px solid gray ;
+}
+.Theend .container .row{
+    margin-top: 100px;
+}
+.Theend .container .row a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.Theend .container .row a h5{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+.Theend .container .row a h5:hover{
+    color: greenyellow;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.Theend .container .row a span{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.644);
+    transition: 0.5s;
+}
+.Theend .container .row a span:hover{
+    color: greenyellow;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.Theend .container .row .col-lg-3 i{
+    font-size: 35px;
+    margin: 5px;
+    margin-top: 90px !important;
+    transition: 0.5s;
+
+}
+.Theend .container .row .col-lg-3 i:hover{
+    color: white;
+    transition: 0.5s;
+}
+/* ------------------------------------------------------------------------ */
+.discoloration{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    background: rgb(46, 42, 42);
+    color: white;
+    transition: 0.5s;
+}
+/* .toup{
+    opacity: 0;
+    transition: 0.5s;
+    margin: 20px;
+}
+.toup.show{
+    opacity: 1;
+    transition: 0.5s;
+}  */
+#time{
+    width: 180px;
+    font-size: 32px;
+    font-family: 'Nosifer', cursive;
+    background-color: #ec3430c2;
+    color: white;
+    font-weight: 900;
+    text-align: center !important;
+}
+/* ------------------------------------------- */

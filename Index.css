@@ -1,17 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
-
 html, body {
   margin: 0;
   padding: 0;
   height: 100vh;
   overflow-x: hidden;
 }
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 :root {
   --red: #ff3838;
   --white: #ffffff;
@@ -51,6 +50,7 @@ html, body {
   height: 100%;
   overflow: hidden;
   border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+  position: relative;
 }
 .Top .navbar {
   background-color: transparent;
@@ -63,7 +63,6 @@ html, body {
   z-index: 9;
   height: 80px;
 }
-
 .Top .navbar a {
   float: left;
   color: var(--black);
@@ -71,6 +70,7 @@ html, body {
   font-size: 14px;
   font-weight: 900;
   padding: 12px;
+  margin-top: -20px;
   text-transform: uppercase;
 }
 
@@ -82,20 +82,12 @@ html, body {
 
 }
 .Top .navbar a.logo img{
-  width: 170px;
-  height: auto;
-  margin-top: -10px;
-}
-.Top .navbar .logo h2{
-  margin-top: -70px;
-  margin-left: 30px;
-  font-weight: 900;
-}
-.Top .navbar .menu{
-  margin-right: 400px;
+  width: 150px;
+  height: 80px;
 }
 .Top .navbar .navbar-right a {
   transition: 0.5s;
+  font-weight: bold;
 }
 
 .Top .navbar .navbar-right a.active {
@@ -105,14 +97,14 @@ html, body {
 
 .Top .navbar .navbar-right a:hover {
   color: var(--black);
-  border-bottom: 2px solid var(--black);
+  border-bottom: 1px solid var(--black);
   transform: scale(1.1);
   transition: 0.5s;
 }
 .Top .navbar .navbar-right .user{
   font-size: 35px;
   margin-left: 20px;
-  margin-top: 5px;
+  margin-top: -20px;
   transition: 0.5s;
 }
 .Top .navbar .navbar-right .user:hover{
@@ -144,7 +136,6 @@ html, body {
 /* ------------------------------END menu------------------------------ */
 .Top .slider {
   overflow: hidden;
-	height: 500%;
 }
 
 .Top .slider .row {
@@ -161,11 +152,6 @@ html, body {
 .Top .slider .row:after, .Top .slider .row:before {
   box-sizing: border-box;
 }
-
-/* .Top .slider .slide {
-  overflow: hidden;
-  height: 500%;
-} */
 
 .Top .slider .fullheight {
   height: 100vh;
@@ -189,12 +175,12 @@ html, body {
 
 .Top .slider .fullheight .product-info .info-wrapper .product-price {
   font-weight: 900;
-  font-size: x-large;
+  font-size: xx-large;
   color: var(--black);
 }
 
 .Top .slider .fullheight .product-info .info-wrapper .product-price span {
-  font-size: large;
+  font-size: xx-large;
   color: var(--black-two);
 }
 
